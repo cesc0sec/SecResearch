@@ -1,6 +1,6 @@
 # Race Condition Tester
 
-This script is designed to test for race condition vulnerabilities by sending multiple concurrent HTTP/2 requests to a target endpoint.
+This script is designed to test for race condition vulnerabilities by sending multiple concurrent requests to a target endpoint.
 
 ## 🚀 Features
 
