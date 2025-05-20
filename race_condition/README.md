@@ -4,7 +4,6 @@ This script is designed to test for race condition vulnerabilities by sending mu
 
 ## 🚀 Features
 
-- Supports **HTTP/2** for modern web targets.
 - Send requests in **parallel** using threads.
 - Customize:
   - URL
