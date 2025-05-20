@@ -25,16 +25,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-python3 racecon.py -u <url> -X <method> -H "Header: value" -t <threads>
+python racecon.py [-h] -u URL [-X METHOD] [-H HEADER] [-t THREADS]
 
 ## Example
 
-python3 racecon.py -u https://example.com/api/claim -X POST -H "Content-Type: application/json" -H "Cookie: session=abc123" -t 100
-
-## Notes
-
-- Outputs only the status code for each request.
-- Designed to help identify race conditions in claim/redeem endpoints or logic flaw scenarios.
+python racecon.py -u https://example.com/api/claim -X POST -H "Content-Type: application/json" -H "Cookie: session=abc123" -t 100
 
 ## Disclaimer
 
