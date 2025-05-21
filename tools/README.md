@@ -1,6 +1,6 @@
 # Tools Collection
 
-This repository contains several small utility tools.
+This repository is for small utility tools.
 
 ## Included Tools
 
