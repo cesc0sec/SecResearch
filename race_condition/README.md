@@ -19,7 +19,7 @@ This script is designed to test for race condition vulnerabilities by sending mu
 Install with:
 
 ```bash
-pip install -r requirements.txt
+pip install httpx
 ```
 
 ## Usage
