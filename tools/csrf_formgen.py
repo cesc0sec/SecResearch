@@ -102,6 +102,15 @@ def main():
 
     elif "application/x-www-form-urlencoded" in content_type:
         fields = parse_qsl(body)
+    
+    elif "application/x-www-formurlencoded" in content_type:
+        fields = parse_qsl(body)
+    
+    elif "application/www-formurlencoded" in content_type:
+        fields = parse_qsl(body)
+    
+    elif "application/www-form-urlencoded" in content_type:
+        fields = parse_qsl(body)
 
     else:
         print("Unsupported content type.")
