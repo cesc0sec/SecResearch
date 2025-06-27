@@ -53,6 +53,6 @@ python subscrape.py -d github.com --sm -p "/,login,admin" --emails --cookies --r
 ### 1. Clone the repository
 Clone the entire `SecResearch` repository:
 ```bash
-git clone https://github.com/cesc0sec/SecResearch.git
-cd SecResearch/subscraper
+git clone https://github.com/cesc0sec/Subscraper.git
+cd Subscraper/
 p install -r requirements.txt
