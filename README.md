@@ -55,4 +55,4 @@ Clone the entire `SecResearch` repository:
 ```bash
 git clone https://github.com/cesc0sec/Subscraper.git
 cd Subscraper/
-p install -r requirements.txt
+pip install requirements.txt
