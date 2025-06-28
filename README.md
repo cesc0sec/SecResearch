@@ -48,10 +48,8 @@ options:
 python subscrape.py -d github.com --sm -p "/,login,admin" --emails --cookies --regex "api_key=\w+"
 ```
 
-## Install
+### Install
 
-### 1. Clone the repository
-Clone the entire `SecResearch` repository:
 ```bash
 git clone https://github.com/cesc0sec/Subscraper.git
 cd Subscraper/
